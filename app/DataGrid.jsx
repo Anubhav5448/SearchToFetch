@@ -29,20 +29,20 @@ const DataGrid = () => {
     };
 
     return (
-      <div className="container mx-auto p-4">
+      <div className="mx-auto p-4">
         <input
           type="text"
           placeholder="Search by title..."
           value={searchTerm}
           onChange={handleSearch}
-          className="w-full text-black p-2 mb-4 border rounded"
+          className="w-full text-black p-2 mb-4 rounded"
         />
 
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4 ">
           {filteredData.map((item) => (
             <div
               key={item.id}
-              className="border p-4 cursor-pointer hover:shadow-lg"
+              className="border p-4 cursor-pointer rounded-xl"
               onClick={() => handleClick(item)}
             >
               <img src={item.image} alt={item.title} className="w-full h-48 object-cover mb-2" />
@@ -52,7 +52,7 @@ const DataGrid = () => {
         </div>
 
         {selectedItem && (
-          <div className="mt-6 p-4 border rounded shadow">
+          <div className="mt-6 p-4 border rounded-xl">
             <img src={selectedItem.image} alt={selectedItem.title} className="w-full h-64 object-cover mb-4" />
             <h2 className="text-2xl font-bold mb-2">{selectedItem.title}</h2>
             <p>{selectedItem.description}</p>
