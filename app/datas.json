@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Eiffel Tower",
+        "description": "The Eiffel Tower, located in Paris, France, is one of the most iconic landmarks in the world. Standing at 330 meters (1,083 feet), it was completed in 1889 as the entrance arch for the 1889 World's Fair, celebrating the 100th anniversary of the French Revolution. Designed by engineer Gustave Eiffel, the tower was initially criticized by some of Paris's leading artists and intellectuals but has since become a global symbol of France and a masterpiece of iron architecture.",
+        "image": "https://images.unsplash.com/photo-1720631442759-6a6a95395f62?q=80&w=1569&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 2,
+        "title": "Taj Mahal",
+        "description": "The Taj Mahal, located in Agra, India, is one of the most famous and beautiful monuments in the world. Built between 1632 and 1653 by the Mughal Emperor Shah Jahan, it was commissioned as a mausoleum for his beloved wife, Mumtaz Mahal, who died during childbirth. The Taj Mahal is an extraordinary symbol of eternal love and a masterpiece of Mughal architecture, blending elements of Persian, Islamic, and Indian styles.",
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 3,
+        "title": "Great wall of china",
+        "description": "The Great Wall of China is an ancient series of walls and fortifications that stretch over 13,000 miles across northern China. Originally built to protect Chinese states and empires from invasions by nomadic tribes, the Great Wall was constructed over many centuries, with some sections dating back to the 7th century BC. The most famous and well-preserved parts of the wall were built between the 14th and 17th centuries during the Ming Dynasty.",
+        "image": "https://images.unsplash.com/photo-1523572195445-beac62603522?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
